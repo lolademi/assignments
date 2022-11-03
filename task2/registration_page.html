@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="/success.html" method="post">
+      <p>
+        <label>First name</label><br />
+        <input type="text" name="first_name" required />
+      </p>
+      <p>
+        <label>Last name</label><br />
+        <input type="text" name="last_name" required />
+      </p>
+      <p>
+        <label>Phone number</label><br />
+        <input type="tel" name="phone" />
+      </p>
+      <p>
+        <label>Email</label><br />
+        <input type="email" name="email" required />
+      </p>
+      <p>
+        <label>
+          <input type="radio" name="gender" value="male" />
+          Male
+        </label>
+        <label>
+          <input type="radio" name="gender" value="female" />
+          Female
+        </label>
+      </p>
+      <p>
+        <label for="birthday">Date of Birth:</label>
+        <input type="date" id="birthday" name="birthday" required />
+      </p>
+      <p>
+        <label for="birthday">Favourite Colour:</label>
+        <input type="color" id="colour" name="birthday" required />
+      </p>
+      <p>
+        <label>Password</label><br />
+        <input type="password" name="password" required />
+      </p>
+
+      <p>
+        <label>
+          <input type="checkbox" value="terms" />
+          I agree to the <a href="/terms">terms and conditions</a>
+        </label>
+      </p>
+      <p>
+        <button>Sign up</button>
+      </p>
+    </form>
+  </body>
+</html>
